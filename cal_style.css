@@ -1,9 +1,10 @@
+
 .display {
     background-color: rgb(211, 211, 211);
     padding: 15px;
     width: 285px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: right;
     font-size: 20px;
     border-top-left-radius:10px;
@@ -25,4 +26,14 @@ button:hover {
    button:active {
     background-color: rgb(129, 127, 127);
    }
-  
+
+.btn-home {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 100px;
+    outline: none;
+    padding: 12px 20px, 10px;
+    background: #2fb8f8;
+    margin: 15px;
+}
