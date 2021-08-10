@@ -1,27 +1,36 @@
-.display {
-    background-color: rgb(211, 211, 211);
-    padding: 15px;
-    width: 285px;
-    margin: auto;
-    margin-top: 100px;
-    text-align: right;
-    font-size: 20px;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-button {
-    padding: 10px;
-    width: 67px;
-    height: 45px;
-    margin-top: 10px;
-    background-color: rgb(194, 194, 194);
-    color: black;
-    font-size: 20px;
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
 }
-button:hover {
-    cursor: pointer;
-    background-color: rgb(138, 138, 138);
-   }
-   button:active {
-    background-color: rgb(129, 127, 127);
-   }
+
+.navMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 120px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #48cef7;
+}
