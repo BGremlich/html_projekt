@@ -1,7 +1,7 @@
 .display {
     background-color: rgb(211, 211, 211);
     padding: 15px;
-    width: 300px;
+    width: 285px;
     margin: auto;
     margin-top: 100px;
     text-align: right;
@@ -20,7 +20,7 @@ button {
 }
 button:hover {
     cursor: pointer;
-    background-color: rgb(254, 255, 254);
+    background-color: rgb(138, 138, 138);
    }
    button:active {
     background-color: rgb(129, 127, 127);
