@@ -2,7 +2,7 @@
     width: 295px;
     margin: auto;
     margin-top: 150px;
-    background-color: rgb(186, 189, 189);
+    background-color: rgb(203, 209, 209);
     padding-top: 20px;
     font-size: 18px;
     padding: 5px;
@@ -21,6 +21,14 @@ button{
     width: 60px;
     padding: 5px;
     margin: 5px;
+    background-color: rgb(175, 175, 175);
+    border: black;
+}
+button:hover{
+    background-color: rgb(105, 104, 104);
+}
+button:active{
+    background-color: rgb(255, 244, 244);
 }
 
 .btn-home {
