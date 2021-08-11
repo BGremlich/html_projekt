@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechner</title>
+    <button onclick="window.location.href='index.html'" class="btn-home" >Home</button>
+  </head>
+    <body>
+<div class="display" >
+    <p id="output">0</p>
+    <div class="first-row" >
+        <button id="r1-1" onclick="forclear()" style="width: 130px;">C</button>
+        <button id="r1-3" onclick="percent()">%</button>
+        <button id="r1-4" value="/" onclick="forclear()">/</button>
+    </div>
+    <div class="second-row" >
+        <button id="r2-1" value="7" onclick="forclear()">7</button>
+        <button id="r2-2" value="8" onclick="percent()">8</button>
+        <button id="r2-3" value="9" onclick="forclear()">9</button>
+        <button id="r2-4" value="X" onclick="forclear()">X</button>
+    </div>
+    <div class="third-row" >
+        <button id="r3-1" value="4" onclick="forclear()">4</button>
+        <button id="r3-2" value="5" onclick="percent()">5</button>
+        <button id="r3-3" value="6" onclick="forclear()">6</button>
+        <button id="r3-4" value="-" onclick="forclear()">-</button>
+    </div>
+    <div class="forth-row" >
+        <button id="r4-1" value="1" onclick="forclear()">1</button>
+        <button id="r4-2" value="2" onclick="percent()">2</button>
+        <button id="r4-3" value="3" onclick="forclear()">3</button>
+        <button id="r4-4" value="+" onclick="forclear()">+</button>
+    </div>
+    <div class="fifth-row" >
+        <button id="r5-1" value="0" onclick="forclear()" style="width: 130px;">0</button>
+        <button id="r5-3" value="." onclick="percent()">.</button>
+        <button id="r5-4" value="=" onclick="forclear()">=</button>
+    </div>
+
+</div>
+
+
+    </body>
+    </html>
