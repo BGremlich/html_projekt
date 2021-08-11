@@ -36,3 +36,14 @@ button:hover {
     background: #2fb8f8;
     margin: 15px;
 }
+
+.btn-calculator {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    float: right;
+    padding: 12px 20px, 10px;
+    background: #2fb8f8;
+    margin: 15px;
+}

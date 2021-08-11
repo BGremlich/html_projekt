@@ -4,7 +4,17 @@
     margin-top: 150px;
     background-color: rgb(186, 189, 189);
     padding-top: 20px;
+    font-size: 18px;
+    padding: 5px;
     text-align: right;
+}
+.display_panel{
+background-color: white;
+width: 200px;
+padding: 15px;
+margin: auto;
+font-size: 25px;
+margin-bottom: 30px;
 }
 
 button{
