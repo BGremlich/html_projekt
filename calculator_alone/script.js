@@ -3,21 +3,28 @@ document.getElementById("output").innerHTML = "0";
 }
 
 function percent(){
-    document.getElementById("output").innerHTML = value / 100;
+    var value = document.getElementById("output").innerHTML;
+    value = value / 100
+    document.getElementById("output").innerHTML = value;
 }
 
-function remove_cero(){
+function remove_zero(){
+    var value = document.getElementById("output").innerHTML;
     if (value == "0"){
-        document.getElementById("output").innerHTML = "";
+        value = " "
+        document.getElementById("output").innerHTML = value;
     }
 
 }
 
 function fordisplay(value){
-    remove_cero();
+    remove_zero();
     document.getElementById("output").innerHTML += value;
 }
 
-function solve(value){
-
+function solve(){
+    remove_zero()
+    var equation = document.getElementById("output").innerHTML;
+    var solved = eval(equation);
+    document.getElementById('output').innerHTML = solved;
 }

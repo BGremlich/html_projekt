@@ -36,6 +36,7 @@ button:active{
     color: #fff;
     font-size: 16px;
     width: 100px;
+    height: 45px;
     padding: 12px 20px, 10px;
     background: #2fb8f8;
     margin: 15px;
